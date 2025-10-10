@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>판타지오</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/fantagio.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        window.onload = () => {
+            var swiper = new Swiper(".mySwiper", {
+                pagination: {
+                    el: ".swiper-pagination",
+                },
+            });
+        }
+
+    </script>
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="inner">
+            <h1 class="logo">
+                <a href="#"><img src="img/FANTAGIO-로고.svg" alt=""></a>
+            </h1><!-- .logo end -->
+
+            <ul class="sidebar">
+                <li>
+                    <a href="#" class="menu">ABOUT</a>
+                    <ul class="submenu">
+                        <li><a href="#">INTRODUTION</a></li>
+                        <li><a href="#">IR</a></li>
+                        <li><a href="#">CONTACT US</a></li>
+                    </ul><!-- .submenu end -->
+                </li>
+
+                <li><a href="#" class="menu">ACTORS</a></li>
+
+                <li><a href="#" class="menu">MUSICIANS</a></li>
+
+                <li><a href="#" class="menu">ENTERTAINER</a></li>
+
+                <li><a href="#" class="menu">PRODUCTION</a></li>
+
+                <li>
+                    <a href="#" class="menu">NEWS</a>
+                    <ul class="submenu">
+                        <li><a href="#">PRESS RELEASE</a></li>
+                        <li><a href="#">FAN CAFE</a></li>
+                    </ul><!-- .submenu end -->
+                </li>
+
+                <li>
+                    <a href="#" class="menu">AUDITION</a>
+                    <ul class="submenu">
+                        <li><a href="#">AUDITION INFO</a></li>
+                    </ul><!-- .submenu end -->
+                </li>
+            </ul><!-- .sidebar end -->
+            
+        </div><!-- .inner end -->
+    </header><!-- .header end --> 
+
+    <div class="main_visual"> <!-- 메인 비주얼 안 에 스와이퍼 마이스와이퍼가 들어가야 함 -->
+        <section class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="img/아스트로 단체.jpg" alt="">
+                </div><!-- .swiper-wrapper end -->
+
+                <div class="swiper-slide">
+                    <img src="img/이창섭 1.svg" alt="">
+                </div><!-- .swiper-wrapper end -->
+
+                <div class="swiper-slide">
+                    <img src="img/루네이트 1.svg" alt="">
+                </div><!-- .swiper-wrapper end -->
+
+                <div class="swiper-slide">
+                    <img src="img/위키미키 1.svg" alt="">
+                </div><!-- .swiper-wrapper end -->
+
+            </div><!-- .swiper-wrapper end -->
+
+
+            <div class="swiper-pagination"></div>
+
+        </section><!-- .swiper mySwiper end -->
+    </div><!-- .main_visual end -->
+    <!-- Swiper -->
+
+    <!-- 푸터 영역 -->
+    <footer class="footer">
+        <!-- 로고 -->
+        <div class="footer_section">
+            <div class="footer_logo">
+                <img src="img/FANTAGIO-로고.svg" alt="FANTAGIO-로고">
+            </div><!-- .footer_logo end -->
+
+            <!-- 개인정보 -->
+            <div class="footer_privacy">
+                <h3>PRIVACY POLICY</h3>
+                <p>OPYRIGHT 2017. Fantagio Corp. ALL RIGHTS RESERVED</p>
+            </div><!-- .footer_privacy end -->
+        </div><!-- .footer_section end -->
+
+
+        <!-- 회사 주소/연락처 -->
+        <div class="footer_map">
+            <h3>VIEW MAP</h3>
+            <ul>
+                <li><a href="#">[주] 판타지오 서울특별시 강남구 삼성로 648, 2층</a></li>
+                <li><a href="#">2F 648 SAMSUNG-RO, GANGNAM-GU, SEOUL, 06084 KOREA</a></li>
+                <li><a href="#">TEL 02.543.5564 FAX 02.546.5509</a></li>
+            </ul>
+        </div><!-- .footer_map end -->
+
+        <!-- sns -->
+        <div class="footer_sns">
+            <h3>FANTAGIO SNS</h3>
+            <div class="sns_icons">
+                <a href="#"><img src="img/icon-facebook-color.svg" alt="페이스북"></a>
+                <a href="#"><img src="img/icon-instagram-color.svg" alt="인스타그램"></a>
+                <a href="#"><img src="img/유튜브.svg" alt="유튜브"></a>
+                <a href="#"><img src="img/icon-twitter-color.svg" alt="트위터"></a>
+            </div><!-- .sns_icons end -->
+        </div><!-- .footer_sns end -->
+
+    </footer><!-- .footer end -->
+
+</body>
+
+</html>
