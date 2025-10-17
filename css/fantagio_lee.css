@@ -164,13 +164,12 @@
 }
 
 .DISCORAPHY ul {
-    display: flex;
-    justify-content: space-between;
-    gap: 28px;
+ 
 }
 
 .DISCORAPHY ul li img {
     margin-bottom: 20px;
+    width: 100%;
 }
 
 .DISCORAPHY ul li .date {
