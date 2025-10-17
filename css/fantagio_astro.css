@@ -50,7 +50,11 @@
 
 
 /* 아스트로 */
-.astro {}
+.astro {
+    width: 1206px;
+    margin: 0 auto;
+
+}
 .astro .intro {}
 .astro .intro .name {
     text-align: center;
@@ -58,16 +62,113 @@
 }
 
 .astro strong {
-    font-size: 70px;
-    text-align: center;
+    font-size: 50px;
 }
 .astro .intro .debut {}
+
 .astro .intro .sns_icons {
     width: 25px;
     height: 25px;
 }
+.astro .intro .sns_icons img {
+    width: 100%;
+    height: 100%;
+}
 
 .astro .intro img {
-    width: 1088px;
-    margin-left: 464px;
+
 }
+
+.members {
+    display: inline-block;
+    text-align: center;
+    margin-top: 70px;
+}
+.members .member-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.members .member-list li {
+    text-align: center;
+    margin: 0 10px;
+}
+
+.members .member-list li img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.members .member-list li span {
+    font-weight: bold;
+    font-size: 30px;
+    display: block;
+}
+
+.members .member-list li p {
+    
+}
+
+
+.footer {
+    background-color: #F9FAFB;
+    padding: 30px;
+    font-size: 14px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: flex-start;
+    height: 185px;
+    width: calc(100% - 250px); /* 사이드바 빼고 전체 너비 */
+    margin-left: 250px;
+    flex-wrap: wrap;
+}
+
+.footer_section {
+    margin-bottom: 15px;
+}
+
+.footer_section .footer_logo {
+    width: 120px;
+}
+
+.footer_section .footer_logo img {
+    width: 100%;
+    height: auto;
+}
+
+.footer h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer_privacy {}
+.footer_privacy h3 {}
+.footer_privacy h3 p {}
+
+
+.footer_map {}
+.footer_map h3 {}
+.footer_map ul {}
+
+.footer_map li {
+    margin-bottom: 5px;
+}
+
+
+.footer_sns {}
+.footer_sns h3 {}
+.footer_sns .sns_icons {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.footer_sns .sns_icons a {
+    width: 24px;
+    height: 24px;
+}
+.footer_sns .sns_icons img {}
