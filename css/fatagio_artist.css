@@ -82,6 +82,7 @@
 }
 
 
+
 /* 유튜브 영역 */
 .youtube {
     max-width: 1670px;
@@ -95,7 +96,9 @@
     margin-bottom: 40px;
     border-bottom: 2px solid #696969;
 }
-.youtube .logo img {}
+.youtube .logo img {
+    width: 317px;
+}
 
 .youtube strong {}
 
@@ -103,6 +106,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    gap: 20px;
 }
 
 
@@ -124,9 +128,10 @@
 }
 
 .youtube .list .item .image p {
-    font-weight: bold;
+    font-weight: 500;
     margin-top: 10px;
-    margin-bottom: 240 px;
+    margin-bottom: 240px;
+    line-height: 1.5; /* 행간 조절 */
 }
 
 .footer {

@@ -70,25 +70,29 @@
 .production .logo img {}
 
 .production .list {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 20px;/* 아이템 사이 간격 */
+    gap: 20px;
+    /* 아이템 사이 간격 */
 }
 
 .production .list .item {
     margin-bottom: 30px;
-    width: calc(33.333% - 20px);   /* 3등분 */
+    width: calc(33.333% - 20px);
+    /* 3등분 */
 
 }
 
 .production .list .item img {
     width: 354px;
-    height: 498px;
+    height: auto;
     object-fit: cover;
     display: block;
-    
 }
 
 
@@ -99,7 +103,6 @@
 .bottom .portfolio {
     max-width: 1670px;
     margin-left: 250px;
-    width: 100%;
     padding: 80px;
 }
 
@@ -118,15 +121,20 @@
     flex-wrap: wrap;
     align-items: center;
     gap: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .bottom .portfolio .list .item {
-    max-width: calc(25% - 22.5px); /* gap이 30px 일 때 */
+    max-width: calc(25% - 22.5px);
+    /* gap이 30px 일 때 */
 }
 
 .bottom .portfolio .list .item img {
-    width: 100%;
-    height: auto; /* 이미지 비율 유지 */
+    width: 264px;
+    height: auto;
+    /* 이미지 비율 유지 */
     display: block;
     object-fit: cover;
 }

@@ -49,3 +49,25 @@
 }
 
 
+/* 아스트로 */
+.astro {}
+.astro .intro {}
+.astro .intro .name {
+    text-align: center;
+    font-size: 20px;
+}
+
+.astro strong {
+    font-size: 70px;
+    text-align: center;
+}
+.astro .intro .debut {}
+.astro .intro .sns_icons {
+    width: 25px;
+    height: 25px;
+}
+
+.astro .intro img {
+    width: 1088px;
+    margin-left: 464px;
+}
