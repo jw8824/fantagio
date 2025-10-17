@@ -16,6 +16,7 @@
     margin-bottom: 20px;
 }
 
+/* 사이드바 */
 .sidebar {
     display: flex;
     flex-direction: column;
@@ -68,7 +69,8 @@
 }
 
 .astro .intro strong {
-    display: inline-block; /* 인라인 태그에 margin-bottom을 주고 싶으면 display: inline-block; 쓰기  */
+    display: inline-block;
+    /* 인라인 태그에 margin-bottom을 주고 싶으면 display: inline-block; 쓰기  */
     font-size: 50px;
     margin-bottom: 20px;
 }
@@ -77,44 +79,47 @@
     margin-bottom: 20px;
 }
 
+/* sns 아이콘 */
 .astro .intro .sns_icons {
     display: flex;
     justify-content: center;
     align-items: center;
     border-bottom: 2px solid #696969;
     gap: 30px;
-    margin-bottom: 40px;
-    padding-bottom: 30px;
+    margin-bottom: 50px;
 }
 
+/* 아스트로 메인 이미지 */
 .astro .intro .sns_icons img {
     width: 25px;
     height: 25px;
 }
 
-.astro .intro img {}
+.astro .intro img {
+    margin-bottom: 100px;
+}
 
 
 /* 멤버 소개란 */
 .members {
-    display: inline-block;
-    text-align: center;
-    margin-top: 70px;
     width: 1206px;
-    margin: 100px auto;
+    margin: 0 auto;
+    margin-bottom: 150px;
 }
 
 .members .logo {
-
+    border-bottom: 2px solid #696969;
+    margin-bottom: 50px;
 }
 
 .members .logo img {
-
+    margin-bottom: 30px;
 }
 
 .members .member-list {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 80px;
 }
 
 .members .member-list li {
@@ -143,23 +148,74 @@
 
 
 /* DISCORAPHY */
-.DISCORAPHY {}
-.DISCORAPHY .logo {}
-.DISCORAPHY ul {}
-.DISCORAPHY ul img {}
-.DISCORAPHY ul .date {}
-.DISCORAPHY ul .desc {}
-.DISCORAPHY ul .title {}
+.DISCORAPHY {
+    width: 1206px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+.DISCORAPHY .logo {
+    margin-bottom: 50px;
+    border-bottom: 2px solid #696969;
+}
+
+.DISCORAPHY .logo img {
+    margin-bottom: 30px;
+}
+
+.DISCORAPHY ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+}
+
+.DISCORAPHY ul li img {
+    margin-bottom: 20px;
+}
+
+.DISCORAPHY ul li .date {
+    margin-bottom: 10px;
+}
+
+.DISCORAPHY ul li .desc {
+    margin-bottom: 10px;
+}
+
+.DISCORAPHY ul li .title {}
 
 
 
 /* MUSICVIDEO */
-.MUSICVIDEO {}
-.MUSICVIDEO .logo {}
+.MUSICVIDEO {
+    width: 1206px;
+    margin: 0 auto;
+    margin-bottom: 180px;
+}
 
-.MUSICVIDEO ul {}
-.MUSICVIDEO ul img {}
-.MUSICVIDEO ul .title {}
+.MUSICVIDEO .logo {
+    margin-bottom: 50px;
+    border-bottom: 2px solid #696969;
+}
+
+.MUSICVIDEO .logo img {
+    margin-bottom: 30px;
+}
+.MUSICVIDEO ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+}
+
+.MUSICVIDEO ul li {}
+
+.MUSICVIDEO ul img {
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+
+.MUSICVIDEO ul .title {
+    line-height: 1.5;
+}
 
 
 
