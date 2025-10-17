@@ -6,10 +6,10 @@
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #EBEBEB;
+    background-color: #F9FAFB;
     width: 250px;
     height: 100vh;
-    background-color: #EBEBEB;
+    background-color: #F9FAFB;
     padding: 20px 20px 0;
 }
 
@@ -109,7 +109,7 @@
 }
 
 .footer {
-    background-color: #EBEBEB;
+    background-color: #F9FAFB;
     padding: 30px;
     font-size: 14px;
     color: black;

@@ -5,7 +5,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #EBEBEB;
+    background-color: #F9FAFB;
     width: 250px;
     height: 100vh;
     padding: 20px 20px 0;
@@ -15,6 +15,7 @@
     margin-bottom: 20px;
 }
 
+/* 사이드바 */   
 .sidebar {
     display: flex;
     flex-direction: column;
@@ -48,10 +49,45 @@
     position: relative;
 }
 
-.news {}
-.news .logo {}
-.news .logo img {}
 
+.news {
+    margin-left: 250px;
+    padding: 80px 60px;
+}
+
+/* 상단 로고 */
+.news .logo {
+    margin-bottom: 50px;
+    border-bottom: 2px solid #000;
+}
+
+.news .logo img {
+    width: 77px;
+    margin-bottom: 20px;
+}
+
+.news .list {
+display: flex;
+flex-wrap: wrap;
+gap: 40px 30px;
+
+}
+
+.news .item {}
+
+.news .item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.news .item strong {
+    display: block;
+    margin-bottom: 6px;
+    line-height: 1.6;
+}
+.news .item p {
+    margin-bottom: 20px;
+}
 
 
 
@@ -59,7 +95,7 @@
 
 /* footer */
 .footer {
-    background-color: #EBEBEB;
+    background-color: #F9FAFB;
     padding: 30px;
     font-size: 14px;
     color: black;
